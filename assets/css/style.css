@@ -1,8 +1,13 @@
+.debug{
+  border: 1px solid black;
+}
+
 header{
   background-color: #2C3E50;
   height: 90px;
 }
 
-.debug{
-  border: 1px solid black;
+#start{
+  background-color: #1ABC9C;
+  height: 500px;
 }
