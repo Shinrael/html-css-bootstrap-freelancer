@@ -4,7 +4,6 @@
 
 header{
   background-color: #2C3E50;
-  height: 90px;
 }
 
 #start{
@@ -14,6 +13,11 @@ header{
 
 #about{
   background-color: #1ABC9C;
+}
+
+.me-container{
+  width: 60%;
+  margin: 0 auto;
 }
 
 #info{
