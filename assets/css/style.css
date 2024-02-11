@@ -55,6 +55,27 @@
   margin: 0 5px;
 }
 
+.bg-hover{
+  background-color: rgba(0, 255, 0, 0.2);
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.plus-hover{
+  font-size: 7rem;
+  color: white;
+}
+
+
+
 /****************** 
         CSS
  ******************/
@@ -67,6 +88,11 @@ header{
 
 #start{
   background-color: #1ABC9C;
+}
+
+.container-fluid:hover img + .bg-hover,
+.container-fluid img:hover + .bg-hover{
+  opacity: 1;
 }
 
 
