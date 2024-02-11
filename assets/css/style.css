@@ -7,6 +7,7 @@
   border: 1px solid black;
 }
 
+
 .color-white{
   color: #ffffff;
 }
@@ -46,7 +47,13 @@
   background-color: #13866f;
 }
 
-
+.circle-social{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 0 5px;
+}
 header{
   background-color: #2C3E50;
 }
