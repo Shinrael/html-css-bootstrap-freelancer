@@ -32,6 +32,21 @@
   background-color: black;
 }
 
+.me-container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.me-button{
+  background-color: #1ABC9C;
+  border: none;
+}
+
+.me-button:hover{
+  background-color: #13866f;
+}
+
+
 header{
   background-color: #2C3E50;
 }
@@ -46,10 +61,24 @@ header{
   background-color: #1ABC9C;
 }
 
-.me-container{
-  width: 75%;
-  margin: 0 auto;
+.my_form input,
+.my_form textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
 }
+
+.my_form input:focus,
+.my_form textarea:focus {
+  box-shadow: none;
+}
+
+.my_form input::placeholder,
+.my_form textarea::placeholder {
+  color: #2b3d4f;  
+} 
+
 
 #info{
   background-color: #3A546D;
