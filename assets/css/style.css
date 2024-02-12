@@ -59,14 +59,18 @@
   background-color: rgba(0, 255, 0, 0.2);
   display: flex;
   height: 100%;
-  width: 100%;
+  width: 95%;
   align-items: center;
   justify-content: center;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 11px;
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+
+.bg-hover.hover-fix{
+  height: 93%;
 }
 
 .plus-hover{
@@ -89,6 +93,7 @@ header{
 #start{
   background-color: #1ABC9C;
 }
+
 
 .container-fluid:hover img + .bg-hover,
 .container-fluid img:hover + .bg-hover{
